@@ -28,6 +28,7 @@ Console.WriteLine(casa1.Name);
 #endregion casa
 */
 // classe pessoa e animal.
+/*
 Pessoa pessoa = new Pessoa();
 
 pessoa.Id = 2;
@@ -39,3 +40,20 @@ Console.WriteLine("Meu id é: " + pessoa.Id); // concatenação: junção de car
 Console.WriteLine("Meu nome é: " + pessoa.Nome);
 Console.WriteLine("Eu tenho: " + pessoa.Idade + " Anos de idade " );
 Console.WriteLine("Meu cpf é: " + pessoa.CPF);
+*/
+
+Animal animal = new Animal();
+
+animal.Id = 1;
+animal.Nome = "Rafeiro";
+animal.Idade = 3;
+animal.Peso = 2.3;
+animal.Altura = 1.7;
+animal.Especie = "Cavalo";
+
+Console.WriteLine("Id do meu animal é: " + animal.Id +
+                  "\nO nome dele é: " + animal.Nome +
+                  "\nIdade dele é: " + animal.Idade + 
+                  "\nO peso dele é: " + animal.Peso + 
+                  "\nAltura dele é: " + animal.Altura +
+                  "\nA especie dele é: " + animal.Especie);
