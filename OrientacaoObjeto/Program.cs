@@ -42,6 +42,7 @@ Console.WriteLine("Eu tenho: " + pessoa.Idade + " Anos de idade " );
 Console.WriteLine("Meu cpf é: " + pessoa.CPF);
 */
 
+/*
 Animal animal = new Animal();
 
 animal.Id = 1;
@@ -52,8 +53,43 @@ animal.Altura = 1.7;
 animal.Especie = "Cavalo";
 
 Console.WriteLine("Id do meu animal é: " + animal.Id +
-                  "\nO nome dele é: " + animal.Nome +
-                  "\nIdade dele é: " + animal.Idade + 
-                  "\nO peso dele é: " + animal.Peso + 
-                  "\nAltura dele é: " + animal.Altura +
-                  "\nA especie dele é: " + animal.Especie);
+                 "\nO nome dele é: " + animal.Nome +
+                 "\nIdade dele é: " + animal.Idade + 
+                 "\nO peso dele é: " + animal.Peso + 
+                 "\nAltura dele é: " + animal.Altura +
+                 "\nA especie dele é: " + animal.Especie);
+*/
+
+
+Funcionario funcionario = new Funcionario();
+funcionario.Id = 1;
+funcionario.Nome = "Alberto Jaquim";
+funcionario.CPF = "23688099885";
+funcionario.RG = "123.456.9";
+funcionario.DataNacimento = new DateOnly(1992,11,08);
+funcionario.NomeDaMae = "Josefina Joao";
+funcionario.NomeDoPai = "Cristovão Joao";
+funcionario.Naturalizacao = "Angolana";
+funcionario.Endereco = "Rua padre Adelino";
+funcionario.Bairro = "Sambizanga";
+funcionario.Cidade = "Luanda";
+funcionario.País = "Angola";
+funcionario.Telefone = 244923030386;
+funcionario.Email = "jsteste@gmail.com";
+funcionario.Cargo = "Analista de Sistema";
+
+Console.WriteLine(" Id do funcionario: " + funcionario.Id +
+                  "\n Nome do funcionario: " + funcionario.Nome +
+                  " \n Cpf do funcionario é: " + funcionario.CPF +
+                  "\n Rg é: " + funcionario.RG +
+                  "\n Data de nascimento: " + funcionario.RG +
+                  "\n Nome da Mãe é: " + funcionario.NomeDaMae +
+                  "\n Nome do pai é: " + funcionario.NomeDoPai +
+                  "\n Naturalozação: " + funcionario.Naturalizacao +
+                  "\n Endereço: " + funcionario.Endereco +
+                  "\n Bairro: " + funcionario.Bairro +
+                  "\n Cidade: " + funcionario.Cidade +
+                  "\n País: " + funcionario.País +
+                  "\n Telefone: " + funcionario.Telefone +
+                  "\n Email: " + funcionario.Email +
+                  "\n Cargo: " + funcionario.Cargo);
