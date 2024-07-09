@@ -1,56 +1,39 @@
-﻿using ClasseObjeto.Classe_Objeto;
-
-namespace ClasseObjeto.Classe_Objeto
+﻿namespace ClasseObjeto.Classe_Objeto
 {
     public class ServicoClassObjeto
     {
-        public void TestarClasseObjeto()
+        /// <summary>
+        /// Sempre que for criar metodo começar sempre com  um verbo+Predicado.
+        /// </summary>
+        public void TestarCasa() // metodos ela indica uma ação ou fazer alguma coisa
+            
         {
-            /*
-            #region casa 
-
-            Casa casa = new Casa(); //instancia da class, cria um objeto da classe
-
-            casa.Id = 2;
-            casa.Name = "Apartamento"; // Atribuição de valores.
-
-            Console.WriteLine(casa.Id);
-            Console.WriteLine(casa.Name);
-
-            casa.Id = 20;
-            casa.Name = "Mansao";
-
-            Console.WriteLine(casa.Id);
-            Console.WriteLine(casa.Name);
-
             Casa casa1 = new Casa();
-
             casa1.Id = 1;
             casa1.Name = "Hostel";
 
             Console.WriteLine(casa1.Id);
             Console.WriteLine(casa1.Name);
+        }
 
-            #endregion casa
-            */
-            // classe pessoa e animal.
-            /*
+        public void TestarPessoa()
+        {
             Pessoa pessoa = new Pessoa();
-
             pessoa.Id = 2;
             pessoa.Nome = "Francisca";
             pessoa.Idade = 30;
             pessoa.CPF = "23688099885";
 
-            Console.WriteLine("Meu id é: " + pessoa.Id); // concatenação: junção de caracteres
+            Console.WriteLine("\nMeu id é: " + pessoa.Id); // concatenação: junção de caracteres
             Console.WriteLine("Meu nome é: " + pessoa.Nome);
-            Console.WriteLine("Eu tenho: " + pessoa.Idade + " Anos de idade " );
+            Console.WriteLine("Eu tenho: " + pessoa.Idade + " Anos de idade ");
             Console.WriteLine("Meu cpf é: " + pessoa.CPF);
-            */
+        }
 
-            /*
+
+        public void TestarAnimal()
+        {
             Animal animal = new Animal();
-
             animal.Id = 1;
             animal.Nome = "Rafeiro";
             animal.Idade = 3;
@@ -58,15 +41,17 @@ namespace ClasseObjeto.Classe_Objeto
             animal.Altura = 1.7;
             animal.Especie = "Cavalo";
 
-            Console.WriteLine("Id do meu animal é: " + animal.Id +
+            Console.WriteLine("\nId do meu animal é: " + animal.Id +
                              "\nO nome dele é: " + animal.Nome +
-                             "\nIdade dele é: " + animal.Idade + 
-                             "\nO peso dele é: " + animal.Peso + 
+                             "\nIdade dele é: " + animal.Idade +
+                             "\nO peso dele é: " + animal.Peso +
                              "\nAltura dele é: " + animal.Altura +
                              "\nA especie dele é: " + animal.Especie);
-            */
+        }
 
 
+        public void TestarFuncionario()
+        {
             Funcionario funcionario = new Funcionario();
             funcionario.Id = 1;
             funcionario.Nome = "Alberto Jaquim";
@@ -84,23 +69,27 @@ namespace ClasseObjeto.Classe_Objeto
             funcionario.Email = "jsteste@gmail.com";
             funcionario.Cargo = "Analista de Sistema";
 
-            
-            
-            Console.WriteLine(" Id do funcionario: " + funcionario.Id +
-                              "\n Nome do funcionario: " + funcionario.Nome +
-                              " \n Cpf do funcionario é: " + funcionario.CPF +
-                              "\n Rg é: " + funcionario.RG +
-                              "\n Data de nascimento: " + funcionario.RG +
-                              "\n Nome da Mãe é: " + funcionario.NomeDaMae +
-                              "\n Nome do pai é: " + funcionario.NomeDoPai +
-                              "\n Naturalozação: " + funcionario.Naturalizacao +
-                              "\n Endereço: " + funcionario.Endereco +
-                              "\n Bairro: " + funcionario.Bairro +
-                              "\n Cidade: " + funcionario.Cidade +
-                              "\n País: " + funcionario.País +
-                              "\n Telefone: " + funcionario.Telefone +
-                              "\n Email: " + funcionario.Email +
-                              "\n Cargo: " + funcionario.Cargo);
+
+
+            Console.WriteLine("\nId do funcionario: " + funcionario.Id +
+                              "\nNome do funcionario: " + funcionario.Nome +
+                              " \nCpf do funcionario é: " + funcionario.CPF +
+                              "\nRg é: " + funcionario.RG +
+                              "\nData de nascimento: " + funcionario.RG +
+                              "\nNome da Mãe é: " + funcionario.NomeDaMae +
+                              "\nNome do pai é: " + funcionario.NomeDoPai +
+                              "\nNaturalozação: " + funcionario.Naturalizacao +
+                              "\nEndereço: " + funcionario.Endereco +
+                              "\nBairro: " + funcionario.Bairro +
+                              "\nCidade: " + funcionario.Cidade +
+                              "\nPaís: " + funcionario.País +
+                              "\nTelefone: " + funcionario.Telefone +
+                              "\nEmail: " + funcionario.Email +
+                              "\nCargo: " + funcionario.Cargo);
         }
+       
+          
+           
     }
 }
+
